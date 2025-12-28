@@ -1,0 +1,5 @@
+1️⃣ Kafka events + retries + DLQ
+2️⃣ Idempotency (critical for recharges)
+3️⃣ State machine (INIT → PENDING → SUCCESS)
+4️⃣ Security (JWT + rate limiting)
+5️⃣ Split into microservices
