@@ -1,4 +1,4 @@
-package com.pvc.core.recharge;
+package com.pvc.payments.recharge;
 
 public final class ElectricityRechargeDetails
         implements RechargeDetails {

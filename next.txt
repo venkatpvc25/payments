@@ -1,5 +1,10 @@
-1️⃣ Kafka events + retries + DLQ
-2️⃣ Idempotency (critical for recharges)
-3️⃣ State machine (INIT → PENDING → SUCCESS)
-4️⃣ Security (JWT + rate limiting)
-5️⃣ Split into microservices
+1️⃣ Persist operators & plans (DB + admin UI)
+2️⃣ Add real BBPS / Paytm integration
+3️⃣ Async recharge status polling
+4️⃣ Webhook handling from providers
+5️⃣ Mobile app API design (Flutter / React)
+Admin APIs (manage operators, plans, margins)
+2️⃣ Commission / margin system
+3️⃣ User transaction history & statements
+4️⃣ Flutter / Mobile API design
+5️⃣ Extract wallet as microservice

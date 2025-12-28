@@ -1,4 +1,4 @@
-package com.pvc.core.recharge;
+package com.pvc.payments.recharge;
 
 import java.time.Instant;
 import java.util.UUID;

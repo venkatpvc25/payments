@@ -1,8 +1,8 @@
-package com.pvc.core.usecase;
+package com.pvc.payments.usecase;
 
 import com.pvc.core.port.WalletPort;
-import com.pvc.core.recharge.RechargeOrder;
-import com.pvc.core.recharge.RechargeProcessor;
+import com.pvc.payments.recharge.RechargeOrder;
+import com.pvc.payments.recharge.RechargeProcessor;
 
 public class RechargeUseCase {
 

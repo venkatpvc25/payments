@@ -33,7 +33,6 @@ public class TransactionAdapter implements TransactionPort {
                 .status(txn.getStatus().name())
                 .createdAt(txn.getCreatedAt())
                 .build();
-
         repo.save(e);
     }
 

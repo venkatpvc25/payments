@@ -1,4 +1,4 @@
-package com.pvc.core.domain;
+package com.pvc.payments.recharge;
 
 public enum RechargeType {
     MOBILE_PREPAID,

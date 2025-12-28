@@ -42,6 +42,12 @@ public class Transaction {
     @Column(nullable = false)
     private String status;
 
+    @Column(name = "provider_txn_id", nullable = false, unique = true)
+    private String providerTxnId;
+
+    @Column(name = "provider_status", nullable = false)
+    private String providerStatus;
+
     private Instant createdAt;
     private Instant updatedAt;
 }
